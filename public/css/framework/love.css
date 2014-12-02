@@ -1,0 +1,85 @@
+body {
+	background-color: #edecec;
+}
+#banner img {
+	width: 100%;
+}
+
+#index_content .title {
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	height: 50px;
+	border-bottom: 2px solid #a78d73;
+	margin: 40px 0 16px 0;
+	color: #513525;
+	font-size: 30px;
+}
+#index_content .block {
+	background: #f4f3f3;
+	box-shadow: 1px 1px 1px #c6c4c3;
+}
+#index_content .item {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin: 30px;
+}
+#index_content .jy-block {
+	padding: 15px;
+}
+#index_content .ym-g33 .item {
+	margin: 15px;
+}
+#index_content .item img {
+	display: block;
+	width: 100%;
+}
+
+#index_content .desc {
+	position: absolute;
+	bottom: 0;
+	color: #fdfbfb;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 0 0 20px;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 24px;
+}
+
+#under_content .list, #under_content .list li{
+	margin: 0;
+}
+
+#under_content .list .ym-cl {
+	padding-left: 260px;
+	margin: 50px 0 0 0;
+}
+#under_content .list .ym-col3 {
+	width: 260px;
+	right: 260px;
+	_right: 0;
+}
+#under_content .list img {
+	width: 260px;
+}
+#under_content .ym-col1 .ym-cbox{
+	padding: 0 0 0 35px;
+}
+#under_content .un_title {
+	font-size: 22px;
+}
+#under_content .un_author {
+	font-size: 14px;
+	display: block;
+	margin: 10px 0 16px 10px;
+}
+#under_content .un_intro {
+	font-size: 16px;
+}
+#under_content .un_link {
+	display: inline-block;
+	margin: 5px 0 0 0;
+	float: right;
+	color: #261106;
+}

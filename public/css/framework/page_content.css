@@ -1,0 +1,456 @@
+body {
+	background: #efefef;
+}
+#page_content {
+	background: #ffffff;
+	border: 1px solid #e9e9e9;
+	outline: none;
+	line-height: 24px;
+	position: relative;
+	margin-top: -1px;
+	margin-bottom: 60px;
+}
+
+#page_content img {
+	display: block;
+}
+#page_content p {
+	text-align: justify;
+}
+.grid-img {
+	width: 100%;
+}
+.single_nav {
+	padding: 35px 30px;
+}
+.single_nav a, .single_nav span{
+	color:#a1705b;
+	display: inline;
+	display: inline-block;
+	margin-right: 5px;
+}
+.page_cheer .single_nav {
+	border-bottom: 3px solid #585858;
+}
+
+.fixed_bar {
+	position: fixed;
+	bottom: 60px;
+	height: 50px;
+	width: 30px;
+	left: 50%;
+	text-align: center;
+	margin-left: 490px;
+}
+.fixed_bar .fixed_tool {
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 32px 0 0 0;
+	line-height: 20px;
+	display: block;
+	width: 100%;
+	color: #84827d;
+}
+.fixed_bar .other_user {
+	background-image: url("/images/icon_fixed_user.png");
+	background-position: 2px top;
+}
+.fixed_bar .fixed_share {
+	margin: 20px 0;
+	background-image: url("/images/icon_fixed_share.png");
+}
+.fixed_bar .fixed_top {
+	background-image: url("/images/icon_fixed_top.png");
+}
+
+.other_users {
+	position: absolute;
+	top: 4px;
+	right: -174px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 20px 0 10px 0;
+	background: #f5f5f5;
+}
+
+.other_users .user_item {
+	padding: 8px 5px 8px 8px;
+}
+.other_users .user_wrap {
+	display: block;
+	position: relative;
+	width: 120px;
+}
+.other_users .user_wrap:hover {
+	background: #f0f0f0;
+}
+/*.other_users .users_icon {
+	display: block;
+	height: 30px;
+	width: 30px;
+	right: -32px;
+	top: 10px;
+	position: absolute;
+	background: url("/images/icon_fixed_user.png") center no-repeat;
+}*/
+.other_users .users_list {
+	
+}
+
+.other_users .user_image{
+	display: block;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.other_users .user_info {
+	position: absolute;
+	width: 65px;
+	top: 0;
+	left: 55px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #383838;
+}
+.other_users .user_name,
+.other_users .user_title {
+	display: block;
+}
+.other_users .user_name {
+
+}
+.other_users .user_title {
+	font-size: 11px;
+	line-height: 14px;
+	margin-top: 5px;
+}
+
+
+.full_w_img img{
+	width: 100%;
+	display: block;
+}
+.orig_w_img img{
+	display: block;
+	margin: 0 auto;
+}
+
+#page_content .line {
+	height: 2px;
+	border-top: 2px dashed #000;
+}
+#page_content .center {
+	text-align: center;
+}
+
+.page_banner {
+	width: 100%;
+	background: url("/images/bg_hand.png") repeat-x;
+	position: relative;
+	z-index: 999;
+}
+.page_banner img{
+	display: block;
+	float: right;
+}
+
+.author_image_right {
+
+}
+.author_image_right .author_wrap {
+	float: right;
+	position: relative;
+}
+.author_image_right img {
+	display: block;
+	float: right;
+}
+.author_image_right .author_desc{
+	position: absolute;
+	width: 200px;
+	left: -200px;
+	text-align: right;
+}
+
+.others_works {
+	text-align: right;
+}
+
+/***comment**/
+#top_hd,
+.menu_wrap,
+.page_banner,
+.fixed_bar,
+.other_users,
+.ym-grid,
+.ym-column
+{
+	/*display: none !important;*/
+}
+
+.content_extends {
+	margin: 60px 0;
+}
+.content_extends .con_tools {
+	display: block;
+	float: right;
+	zoom: 1;
+	margin: 0 66px 8px 0;
+}
+.content_extends .con_tool {
+	float: left;
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	color: #6e6d6d;
+	margin-left: 25px;
+}
+.content_extends .con_post_comment {
+	border-top: 1px solid #dad9d9;
+	border-bottom: 1px solid #dad9d9;
+}
+.content_extends .con_post_form {
+	display: block;
+	margin: 0 66px;
+}
+.content_extends .con_post_title,
+.content_extends .con_post_box,
+.content_extends .con_post_btn {
+	display: block;
+	width: 100%;
+}
+.content_extends .con_post_title {
+	font-size: 16px;
+	color: #6e6d6d;
+	line-height: 18px;
+	margin: 15px 0 8px 0;
+}
+.content_extends .con_post_box {
+	border: 1px solid #c7bab3;
+	height: 80px;
+	padding: 10px;
+	font-size: 14px;
+	width: 824px;
+}
+.content_extends .con_post_btn {
+	padding: 8px 0 15px 0;
+}
+.content_extends .con_post_submit {
+	display: block;
+	float: right;
+	zoom: 1;
+	background:#97735e;
+	color: #fff;
+	padding: 6px 16px;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 12px;
+	border: none;
+}
+.content_extends .con_post_msg {
+	float: right;
+	line-height: 30px;
+	padding: 0 20px 0 0;
+	font-size: 12px;
+	color: #97735e;
+}
+.content_extends .con_comments {
+	margin: 0 66px;
+	font-size: 12px;
+	color: #3f3f3f;
+}
+.content_extends .con_comments .ym-column {
+	display: block !important;
+	margin: 20px 0 0 0;
+	padding: 20px 0 20px 50px;
+	border-bottom: 1px solid #d5c9c2;
+}
+.content_extends .con_comments .ym-col3 {
+	width: 50px;
+	right: 50px;
+	_right: 0px;
+}
+.content_extends .con_comments .ym-col1 .ym-cbox {
+	margin: 15px 0 0 10px;
+	min-height: 35px;
+}
+.content_extends .con_user_cover {
+	display: block;
+	width: 50px;
+	border-radius: 100%;
+}
+.content_extends .con_com_user {
+	display: inline;
+	display: inline-block;
+	font-size: 14px;
+	color: #b2a095;
+	margin: 0 4px 0 0;
+}
+
+
+/**verse box***/
+body.show_verse_box .verse_box_wrap {
+	display: block;
+}
+.verse_box_wrap {
+	display: none;
+	position: absolute;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #ccc;
+	background: rgba(0,0,0,0.7);
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	overflow: auto;
+}
+.verse_box_wrap .close {
+	position: absolute;
+	position: fixed;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 30px;
+	background: #fff;
+	background: rgba(255,255,255,0.8);
+	color: #000;
+	top: 15px;
+	border: none;
+	right: 15px;
+	cursor: pointer;
+}
+.verse_box_wrap .close:hover {
+	background: #fff;
+}
+.verse_box {
+	padding: 60px 0;
+	font-size: 12px;
+	line-height: 24px;
+	color: #686868;
+}
+.verse_box .verse_contain,
+.verse_box .tools {
+	display: block;
+	margin: 0 auto;
+}
+.verse_box .verse_contain img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background: #fff;
+}
+.verse_box .tools {
+	width: 500px;
+	padding: 30px 60px;
+	background: #fff;
+	margin-top: 30px;
+}
+.verse_box .tools textarea {
+	display: block;
+	width: 96%;
+	padding: 10px;
+	height: 120px;
+	border: 1px solid #c7bab3;
+	font-size: 12px;
+	margin: 10px 0 0 0;
+}
+.verse_box .text_count {
+	color: #a28a77;
+	text-align: right;
+	margin: 4px 0 10px 0;
+}
+.verse_box .text_count.error, .verse_box .verse_msg{
+	color: #dd514c;
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 4px;
+}
+.verse_box .body_input, .verse_box .body_select {
+	display: block;
+	margin-bottom: 10px;
+}
+.verse_box .body_input input {
+	display: block;
+	border: 1px solid #c7bab3;
+	padding: 4px 8px;
+	font-size: 12px;
+	width: 300px;
+}
+.verse_box .submit {
+	display: block;
+	background: #97735e;
+	color: #fff;
+	padding: 6px 50px;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	border: none;
+	margin-top: 20px;
+}
+.verse_box select {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.verse_user {
+	position: absolute;
+	bottom: 64px;
+	right: 64px;
+	height: 70px;
+	width: 70px;
+	line-height: 72px;
+	text-align: center;
+	display: block;
+	background: #d0d0d0;
+	font-size: 14px;
+	border-radius: 50%;
+	color: #fff;
+}
+.verse_users_list {
+	right: -122px;
+}
+.verse_users_list .verse_user {
+	position: static;
+	background: #d0d0d0 !important;
+}
+
+.verse_user.verse_wangxi{
+	background: #859e80;
+}
+.verse_users_list .verse_wangxi:hover {
+	background: #859e80 !important;
+}
+.verse_user.verse_yinzuo {
+	background: #556f8c;
+}
+.verse_users_list .verse_yinzuo:hover {
+	background: #556f8c !important;
+}
+.verse_user.verse_situchuniao {
+	background: #2d6191;
+}
+.verse_users_list .verse_situchuniao:hover {
+	background: #2d6191 !important;
+}
+.verse_user.verse_kashandela {
+	background: #fbbdb5;
+}
+.verse_users_list .verse_kashandela:hover {
+	background: #fbbdb5 !important;
+}
+.verse_user.verse_jinyu {
+	background: #97a5a4;
+}
+.verse_users_list .verse_jinyu:hover {
+	background: #97a5a4 !important;
+}
+.verse_user.verse_ake {
+	background: #d2cecc;
+}
+.verse_users_list .verse_ake:hover {
+	background: #d2cecc !important;
+}

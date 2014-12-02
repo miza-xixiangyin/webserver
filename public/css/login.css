@@ -1,0 +1,170 @@
+body {
+	min-height: 500px;
+	overflow: auto;
+}
+#login_bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: url("../images/login_bg.png") center;
+	background-size: cover;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+#login_nav {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#login_nav .nav_wrap {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+#login_nav .nav {
+	text-align: center;
+}
+#login_nav .nav a{
+	display: inline-block;
+	border: 1px solid #ba6e59;
+	color: #151515;
+	height: 38px;
+	line-height: 36px;
+	width: 168px;
+	font-size: 18px;
+
+	-webkit-transition: 0.2s all;
+	-moz-transition: 0.2s all;
+	transition: 0.2s all;
+}
+.for_login #login_nav .nav .for_login,
+.for_register #login_nav .nav .for_register,
+#login_nav .nav a:hover {
+	background: #de3711;
+	color: #fffbfb;
+}
+
+#login_logo {
+	background: url("../images/logo.png") no-repeat center;
+	height: 90px;
+	text-indent: -999em;
+	margin: 0 0 80px 0;
+}
+
+#login_form {
+	position: absolute;
+	height: 50%;
+	bottom: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	opacity: 0;
+	transition: 0.2s all;
+}
+#login_form:before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	width:0px;
+	height:0px;
+	border:10px solid;
+	border-color:transparent transparent rgba(255,255,255,0.5) transparent;
+	border-style:dashed dashed solid dashed;
+	left: 50%;
+	margin-left: -10px;
+	transition: 0.2s all;
+}
+.for_login #login_form:before {
+	margin-left: -180px;
+}
+.for_login #login_form,
+.for_register #login_form {
+	opacity: 1;
+}
+#for_login, #for_register {
+	opacity: 0;
+	position: absolute;
+	top: 52px;
+	left: 0;
+	transition: 0.4s all;
+}
+.for_login #for_login,
+.for_register #for_register {
+	opacity: 1;
+	z-index: 99;
+}
+
+
+#login_form .form_wrap {
+	height: 100px;
+	width: 510px;
+	margin: 0 auto;
+	position: relative;
+	padding: 52px 0 0 0;
+}
+#login_form .input,
+#login_form .submit {
+	display: block;
+	border-radius: 2px;
+	width: 270px;
+	padding: 8px;
+	font-size: 14px;
+	margin: 0 0 12px 0;
+}
+#login_form .input {
+	border: 1px solid rgba(135, 7, 8, 0.5);
+	background: rgba(255,255,255,0.5);
+	
+}
+#login_form .submit {
+	border: 1px solid rgba(73,1,1,0.4);
+	background: #de3711;
+	color: #fff;
+	
+}
+#login_form .tools {
+	position: relative;
+	width: 270px;
+	color: #8c8c8c;
+	margin: -8px 0 0 0;
+}
+#login_form .tools label {
+}
+#login_form .tools label input {
+	float: left;
+	margin: 2px 0 0 0;
+}
+#login_form .tools a {
+	float: right;
+	color: #8c8c8c;
+}
+#login_form .others {
+	width: 150px;
+	position: absolute;
+	right: 0;
+	top: 52px;
+}
+#login_form .title {
+	top: -24px;
+	left: 0;
+	position: absolute;
+	font-size: 12px;
+	color: #8c8c8c;
+}
+#login_form .others a {
+	display: block;
+	height: 30px;
+	width: 142px;
+	margin: 0 0 12px 0;
+}
+#login_form .weibo {
+	background: url("../images/login_weibo.png") left center no-repeat;
+}
+#login_form .qq {
+	background: url("../images/login_qq.png") left center no-repeat;
+}
+#login_form .renren {
+	background: url("../images/login_renren.png") left center no-repeat;
+}

@@ -1,0 +1,118 @@
+body {
+	background: #efefef;
+}
+#column_list {
+	 min-height: 300px; 
+	background: #ffffff;
+	border: 1px solid #e9e9e9;
+	outline: none;
+	line-height: 2em;
+	padding: 50px 0 0 50px;
+}
+#column_list .recom_user {
+	position: relative;
+	overflow: hidden;
+	margin: 0 50px 80px 0;
+}
+#column_list .recom_user_info {
+	position: absolute;
+	right: 70px;
+	bottom: 0;
+	text-align: right;
+}
+
+#column_list .recom_user img{
+	display: block;
+	float: right;
+	width: 60px;
+}
+
+#column_list .recom_name {
+	font-size: 18px;
+	display: inline;
+	display: inline-block;
+	color: #2b2b2b;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+}
+#column_list .recom_name a {
+	background: url(/images/icon_recom_add.png) no-repeat center;
+	text-indent: -999em;
+	display: block;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	top: 4px;
+	left: -24px;
+
+}
+#column_list .recom_position {
+	font-size: 10px;
+	color: #fff;
+	background: #030303;
+	line-height: 12px;
+	padding: 1px 4px;
+	display: block;
+}
+
+#column_list .recom_title {
+	height: 100px;
+	margin: 0 0 50px -15px;
+}
+#column_list .recom_movie {
+	background: url(/images/recom_movie.png) no-repeat;
+}
+#column_list .recom_list {
+
+}
+#column_list .recom_item {
+	overflow: hidden;
+	clear: both;
+	zoom: 1;
+	position: relative;
+	margin: 0 0 50px 0;
+}
+#column_list .cover {
+	width: 220px;
+	float: left;
+
+}
+#column_list .cover img {
+	display: block;
+	width: 100%;
+}
+#column_list .desc {
+	margin: 0 0 0 228px;
+}
+#column_list .title {
+	color: #191919;
+	font-size: 24px;
+	border-bottom: 1px dashed #848483;
+	padding: 0 0 6px 20px;
+}
+#column_list .intro {
+	font-size: 14px;
+	color: #7c7c7c;
+	padding: 30px 50px 0 30px;
+}
+#column_list .time {
+	text-align: right;
+	color: #7c7c7c;
+	font-size: 16px;
+	padding: 8px 50px 0 0;
+}
+#column_list .tool_bar {
+	text-align: right;
+	position: absolute;
+	bottom: 40px;
+	right: 50px;
+}
+#column_list .tool{
+	color: #966235;
+	display: block;
+	float: left;
+	margin: 0 0 0 12px;
+}

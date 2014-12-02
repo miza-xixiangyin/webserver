@@ -1,0 +1,67 @@
+body {
+	background: #edecec;
+}
+#banner {
+	margin: 0 auto;
+}
+#love_way {
+
+}
+#love_way .block {
+	margin: 40px 0 0 0;
+}
+#love_way .title {
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	text-indent: -999em;
+	height: 50px;
+	border-bottom: 2px solid #a78d73;
+	margin: 0 0 16px 0;
+}
+#love_way .title.ly {
+	background-image: url("../images/lw_ly.png");
+}
+#love_way .title.jy {
+	background-image: url("../images/lw_jy.png");
+}
+#love_way .column {
+	position: relative;
+	overflow: hidden;
+	background: #f4f3f3;
+	box-shadow: 1px 1px 1px #c6c4c3;
+}
+#love_way .column_jy {
+	padding: 15px;
+}
+#love_way .column img {
+	display: block;
+}
+#love_way .column .c_item {
+	display: block;
+	float: left;
+}
+#love_way .item {
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+#love_way .column .c_2 {
+	width: 50%;
+	padding: 30px;
+}
+#love_way .column .c_3 {
+	width: 33.33333%;
+	padding: 15px;
+}
+#love_way .desc {
+	position: absolute;
+	bottom: 0;
+	color: #fdfbfb;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 0 0 20px;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 24px;
+}

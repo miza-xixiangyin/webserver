@@ -1,0 +1,35 @@
+#love_understand {
+	margin-top: 80px;
+	color: #261106;
+}
+#love_understand .un_item {
+	overflow: hidden;
+	margin: 0 0 50px;
+}
+#love_understand .un_cover {
+	display: block;
+	float: left;
+	width: 260px;
+}
+#love_understand .un_content {
+	margin: 0 0 0 295px;
+	position: relative;
+}
+#love_understand .un_title {
+	font-size: 22px;
+	font-weight: lighter;
+}
+#love_understand .un_author {
+	font-size: 14px;
+	display: block;
+	margin: 10px 0 16px 10px;
+}
+#love_understand .un_intro {
+	font-size: 16px;
+}
+#love_understand .un_link {
+	display: inline-block;
+	margin: 5px 0 0 0;
+	float: right;
+	color: #261106;
+}

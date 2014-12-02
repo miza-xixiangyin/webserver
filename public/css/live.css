@@ -1,0 +1,48 @@
+ibody {
+	background: #ebe5d9;
+}
+#batter_life {
+	color: #3f2114;
+	font-size: 16px;
+}
+#batter_life .block{
+	margin: 40px 0 0 0;
+}
+#banner {
+	margin: 0 auto;
+}
+#bl_desc {
+	text-align: right;
+	color: #3f2114;
+	margin: 10px 0 0 0;
+}
+#batter_life .title {
+	color: #634635;
+	font-size: 30px;
+	border-bottom: 2px solid #a78d73;
+	padding-bottom: 5px;
+	letter-spacing: 8px;
+	margin: 0 0 20px 0;
+}
+#batter_life .column {
+	position: relative;
+	overflow: hidden;
+}
+#batter_life .item {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	color: #3f2114;
+}
+#batter_life .column img {
+	display: block;
+}
+#batter_life .column .c_item {
+	display: block;
+	float: left;
+	width: 50%;
+}
+#batter_life .column .desc {
+	margin: 10px 0 0 0;
+}

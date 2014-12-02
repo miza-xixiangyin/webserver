@@ -1,0 +1,25 @@
+#live_content .title {
+	color: #634635;
+	font-size: 30px;
+	border-bottom: 2px solid #a78d73;
+	padding-bottom: 5px;
+	letter-spacing: 8px;
+	margin: 40px 0 20px 0;
+}
+#bl_yq img{
+	width: 100%;
+}
+#bl_desc{
+	text-align: right;
+	color: #3f2114;
+	margin: 10px 0 0 0;
+}
+#live_content .ym-g50 .item{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+#live_content .ym-g50 .item .desc{
+	margin: 10px 0 0 0;
+	color: #3f2114;
+}

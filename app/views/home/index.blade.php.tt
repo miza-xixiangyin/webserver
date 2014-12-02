@@ -1,0 +1,78 @@
+<?php
+$curr_hour = date('H');
+?>
+@extends('layouts.master')
+
+@section('content')
+<?php
+$menus = Config::get('web_conf.main_menus');
+?>
+<div class="custom_index">
+	<a class="index_item @if(2 < $curr_hour && $curr_hour < 11)active @endif" href="/verse" style=" background: #f4efdc url(/uploads/page/o/JSFUzzM6C5HafKBxe0v6.png) center repeat;">
+		<div class="abs_item" style="height:224px; width:83px; left: 90px; top: 50%; margin-top: -112px; background: url(/uploads/page/o/RKopBPKsrqKkUrEyOQjb.png) no-repeat center"></div>
+		<div class="abs_item" style="height: 332px; width:326px; left: 50%; top:50%; margin-top: -166px; margin-left:-163px; background: url(/uploads/page/o/2T6ppBXLcfTOTDB6lYyc.png) no-repeat center"></div>
+		<div class="abs_item" style="bottom: 24px; left: 55px; width: 500px; background: url(/uploads/page/o/IsF9Nq3Djp90ut6wddxU.png) no-repeat 150px center;">
+			<img style="height: 50px; display: block;" src="/images/logo_t.png">
+		</div>
+	</a>
+	<a class="index_item @if(11 <= $curr_hour && $curr_hour <= 15)active @endif" href="handmake/1" style="background: #f0efea;">
+		<div class="ym-contain-oh" style="height: 100%; padding: 65px 0 50px 0;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;">
+			<div style="display: block;height: 100%;position: relative;">
+				<img src="/uploads/page/o/Hn5OJpnc7OuFS3A0J7Fl.png" style="height: 100%; display:block;position: absolute;right:62px;">
+				<img src="/uploads/page/o/CpCbvvaMHXhZSfjIpeej.png" style="display: block;bottom: 0;position: absolute;left: 50px;">
+			</div>
+		</div>
+		<img class="abs_item" style="top:65px; left:40px; display: block;" src="/images/logo_t.png">
+	</a>
+	<a class="index_item @if(15 < $curr_hour || $curr_hour < 2)active @endif" href="/cheer/3" style="background: #f1efeb;">
+		<div class="ym-contain-oh" style="height: 100%; padding: 65px 0 50px 0;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;">
+			<div style="display: block;height: 100%;position: relative;">
+				<img src="/uploads/page/o/4hvB7PpJ1WTzxnxq0M47.png" style="height: 100%; display:block;position: absolute;right:62px;">
+				<img src="/uploads/page/o/xQOxJPkMUZ9pn1RFnmOn.png" style="display: block;bottom: 0;position: absolute;left: 50px;">
+			</div>
+		</div>
+		<img class="abs_item" style="top:65px; left:40px; display: block;" src="/images/logo_t.png">
+	</a>
+	<div class="index_list">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</div>
+
+<div class="top_menu index_top_menu">
+@if(!Auth::check())
+	<a class="auth_tool" data-type="login">登陆</a>
+	<a class="auth_tool" data-type="register">注册</a>
+@else
+	<a href="{{ URL::route('u_index') }}">{{Auth::user()->user_nick()}}</a>
+	<a href="{{ URL::route('u_setting') }}">设置</a>
+	<a href="{{ URL::route('logout') }}">退出</a>
+@endif
+</div>
+
+<div class="index_main_menu">
+	<ul class="menus">
+		@foreach ($menus as $key => $menu)
+		<?php
+		if($key == 'index') continue;
+		?>
+		<li class="p_menu">
+			<a class="p_menu_text p_menu_{{ $key }}" {{ isset($menu['link']) ? 'href="'.$menu['link'].'"' : '' }}>{{ $menu['text'] }}</a>
+			@if(isset($menu['children']))
+				<ul class="sub_menu">
+				@foreach ($menu['children'] as $sub_key => $sub_menu)
+					<li class="sub_menu_item">
+						<a class="sub_menu_{{ $sub_key }}" href="{{ $sub_menu['link'] }}">{{ $sub_menu['text'] }}</a>
+					</li>							
+				@endforeach
+				</ul>
+			@endif
+		</li>
+		@endforeach
+	</ul>
+</div>
+
+@stop

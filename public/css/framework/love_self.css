@@ -1,0 +1,141 @@
+body{
+	background: #efefef;
+}
+.nav_bar .ym-wbox a, .nav_bar .ym-wbox span{
+	display: inline;
+	display: inline-block;
+	padding-right: 6px;
+	color: #7e4d36;
+	font-size: 14px;
+}
+.banner_desc {
+	background: #e0d2ca;
+}
+.banner_desc .love_desc {
+	padding-left: 180px;
+	padding-bottom: 50px;
+}
+.banner_desc .ym-box {
+	padding: 50px 0 10px 0;
+}
+.love_desc .ym-col3{
+	width: 180px; /* column width */
+	right: 180px; /* column width */
+	_right: 0px; /* fix for ie6 */
+}
+.love_desc .ym-col3 .ym-cbox {
+}
+.love_desc .love_content {
+	font-size: 12px;
+	line-height: 24px;
+	color: #734437;
+}
+.love_desc .editor {
+	float: right;
+}
+.love_desc .page_icon{
+	display: block;
+}
+.love_desc .editor p{
+	font-size: 12px;
+	line-height: 28px;
+	color: #da6c49;
+}
+.love_desc .ym-col1 .ym-cbox {
+	padding: 0 0 0 40px;
+}
+.user_info {
+	float: right;
+	font-size: 14px;
+	color: #6d3d30;
+	text-align: right;
+}
+
+.user_image {
+	float: left;
+}
+.user_desc {
+	float: left;
+	border-right: 2px solid #ada29e;
+	padding: 25px 10px 0 0;
+	margin: 20px 15px 0 0;
+}
+.user_info .user_title {
+	font-size: 11px;
+	display: inline;
+	display: inline-block;
+	background: #020202;
+	color: #fff;
+	padding: 2px 4px;
+}
+.other_link {
+	font-size: 12px;
+	color: #734437;
+	display: block;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+.player_container {
+	padding: 90px 0 120px 0;
+	position: relative;
+	background: url("/uploads/page/o/mpdhBIMrbJyI40UxDb8l.png") repeat-x center;
+}
+.player_container .tool_bar {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	color: #fb8462;
+	line-height: 24px;
+}
+.player_container .tool_bar .ym-box{
+	text-align: center;
+	padding: 10px 0;
+}
+.player_container .tool_bar a {
+	display: inline;
+	display: inline-block;
+	padding: 0 20px;
+}
+.player_box {
+	margin: 0 auto;
+	position: relative;
+	width: 470px;
+	height: 470px;
+}
+#xx_player{
+	width: 0px; height: 0px;
+}
+.player_bg {
+	background: url("/uploads/page/o/BgHUegyRg9HpEFmupMFe.png") no-repeat center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.player_tools {
+	display: block;
+	height: 100px;
+	width:100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -45px;
+	margin-top: -45px;
+	background: url("/images/player_bg.png") no-repeat center;
+}
+.player_tools:hover {
+	opacity: 0.8;
+}
+.player_btn {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: url("/images/player_pause.png") no-repeat center;
+}
+.player_btn.jp-play {
+	background: url("/images/player_start.png") no-repeat center;
+}

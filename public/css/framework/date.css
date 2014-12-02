@@ -1,0 +1,25 @@
+body{
+	background: #efefef;
+}
+.page_banner {
+	width: 100%;
+	background: url("/images/bg_hand.png") repeat-x;
+}
+.page_banner .ym-wbox{
+	background: url("/images/date_title.png") no-repeat top right;
+	height: 292px;
+}
+
+.date_wrap {
+	width: 100%;
+	background: url("/images/date_bg_1.png") right top no-repeat;
+}
+.date_content {
+	width: 100%;
+	padding: 180px 0;
+	background: url("/images/date_bg_2.png") left 70px no-repeat;
+}
+.date_wrap img {
+	display: block;
+	margin: 0 auto;
+}

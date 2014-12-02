@@ -1,0 +1,60 @@
+#banner {
+	height: 466px;
+	margin: 0 auto;
+}
+#index {
+	margin-top: 20px;
+	margin: 20px auto 60px auto;
+}
+#index .block {
+	margin: 30px 0 0 0;
+}
+#index .title {
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -999em;
+	height: 70px;
+	border-bottom: 1px solid #63524a;
+	margin: 0 0 16px 0;
+}
+#index .title.lw {
+	background-image: url("../images/index_lw.png");
+}
+#index .title.ix {
+	background-image: url("../images/index_ix.png");
+}
+#index .title.bl {
+	background-image: url("../images/index_bl.png");
+}
+#index .title.fy {
+	background-image: url("../images/index_fy.png");
+}
+#index .column {
+	position: relative;
+	overflow: hidden;
+}
+#index a.item {
+	position: relative;
+}
+#index .column img, #index a.item {
+	display: block;
+	max-width: 100%;
+}
+#index .column .left,
+#index .column .right{
+	height: 426px;
+}
+#index .column .left {
+	width: 650px;
+	float: left;
+}
+#index .column .right {
+	float: right;
+	width: 310px;
+	overflow: hidden;
+	position: relative;
+}
+#index .column .right .last {
+	position: absolute;
+	bottom: 0;
+}

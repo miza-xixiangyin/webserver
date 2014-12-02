@@ -1,0 +1,175 @@
+.custom_index, .custom_index .index_item {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+}
+.custom_index {
+	min-height: 580px;
+	min-width: 980px;
+}
+.custom_index .index_item {
+	position: absolute;
+	display: none;
+}
+.custom_index .index_item.active {
+	display: block;
+}
+.custom_index .abs_item {
+	display: block;
+	position: absolute;
+}
+
+.custom_index .index_list {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+}
+
+.custom_index .index_list ul {
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+.custom_index .index_list li {
+	display: block;
+	float: left;
+	list-style: none;
+	position: relative;
+	right: 50%;
+	background: red;
+	height: 20px;
+	width: 20px;
+	background: #b58f79;
+	border-radius: 50%;
+	margin: 0 12px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.5);
+
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+ 	filter: alpha(opacity=30);
+ 	-moz-opacity: 0.3;
+ 	-khtml-opacity: 0.3;
+ 	opacity: 0.3;
+}
+.custom_index .index_list li:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+ 	filter: alpha(opacity=70);
+ 	-moz-opacity: 0.7;
+ 	-khtml-opacity: 0.7;
+ 	opacity: 0.7;
+ 	cursor: pointer;
+}
+.custom_index .index_list li.active {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+ 	filter: alpha(opacity=100);
+ 	-moz-opacity: 1;
+ 	-khtml-opacity: 1;
+ 	opacity: 1;
+}
+
+
+
+/***menu***/
+.index_main_menu {
+	position: absolute;
+	/*position: fixed;*/
+	z-index: 99999;
+	top: 35px;
+	right: 0;
+}
+.index_main_menu .p_menu {
+	margin: 30px 0 0 0;
+	position: relative;
+}
+.index_main_menu .p_menu_text {
+	background-position: center left;
+	background-repeat: no-repeat;
+	display: block;
+	height: 120px;
+	width: 30px;
+	text-indent: -999em;
+	border-right: 4px solid #b7a38f;
+	padding: 10px 0;
+}
+.index_main_menu .p_menu_loving {
+	background-image: url("/images/index_menu_loving.png");
+}
+.index_main_menu .p_menu_live {
+	background-image: url("/images/index_menu_live.png");
+}
+.index_main_menu .p_menu_store {
+	background-image: url("/images/index_menu_store.png");
+}
+
+.index_main_menu .sub_menu {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 4px;
+	padding-right: 45px;
+	background: rgba(0,0,0,0.7);
+	white-space:nowrap;
+	display: none;
+}
+.index_main_menu .p_menu:hover .sub_menu {
+	display: block;
+}
+.index_main_menu .sub_menu_item {
+	display: inline-block;
+	height: 100%;
+}
+.index_main_menu .sub_menu_item a {
+	color: #fff;
+	display: block;
+	height: 100%;
+	width: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -999em;
+	border: 1px solid transparent;
+	margin-top: -1px;
+}
+.index_main_menu .sub_menu_item a:hover {
+	border: 1px solid #fff;
+}
+.index_main_menu .sub_menu_verse {
+	background-image: url("/images/index_menu_sub_verse.png");
+}
+.index_main_menu .sub_menu_post {
+	background-image: url("/images/index_menu_sub_post.png");
+}
+.index_main_menu .sub_menu_date {
+	background-image: url("/images/index_menu_sub_date.png");
+}
+.index_main_menu .sub_menu_handmake {
+	background-image: url("/images/index_menu_sub_handmake.png");
+}
+.index_main_menu .sub_menu_dress {
+	background-image: url("/images/index_menu_sub_dress.png");
+}
+.index_main_menu .sub_menu_cheer {
+	background-image: url("/images/index_menu_sub_cheer.png");
+}
+.index_main_menu .sub_menu_salon {
+	background-image: url("/images/index_menu_sub_salon.png");
+}
+.index_top_menu {
+	position: absolute;
+	z-index: 999999;
+	top: 12px;
+	right: 60px;
+}
+.index_top_menu a {
+	display: block;
+	float: left;
+	color: #a99c94;
+	font-weight: lighter;
+	margin-left: 30px;
+}

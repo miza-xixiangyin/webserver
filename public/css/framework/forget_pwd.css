@@ -1,0 +1,28 @@
+body {
+	background: #dcd5d1;
+}
+.forget_pwd {
+	background: #fff;
+	color: #5f463b;
+}
+
+.forget_pwd .header {
+	background: #c2b5ac;
+}
+.forget_pwd .logo {
+	display: block;
+	padding: 8px 0;
+}
+.forget_pwd .logo img {
+	display: block;
+	height: 50px;
+}
+.forget_pwd .body {
+	height: 300px;
+	width: 600px;
+	padding: 80px 0;
+}
+.forget_pwd .body .title{
+	font-size: 16px;
+
+}
